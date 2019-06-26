@@ -1,9 +1,9 @@
 {
-  "name": "Toggle Panel Visibility for Adobe XD",
+  "name": "Toggle Sidenav Visibility for Adobe XD",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Allows user to toggle the panel visibility for Adobe XD pages",
-  "homepage_url": "https://github.com/SpacemanPete/adobe-xd-toggle-panel-visibility",
+  "description": "Allows user to toggle the Sidenav visibility for Adobe XD pages",
+  "homepage_url": "https://github.com/SpacemanPete/adobe-xd-toggle-sidenav-visibility",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
