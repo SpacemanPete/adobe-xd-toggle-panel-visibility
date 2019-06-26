@@ -1,0 +1,34 @@
+{
+  "name": "Toggle Panel Visibility for Adobe XD",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Allows user to toggle the panel visibility for Adobe XD pages",
+  "homepage_url": "https://github.com/SpacemanPete/adobe-xd-toggle-panel-visibility",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://xd.adobe.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
