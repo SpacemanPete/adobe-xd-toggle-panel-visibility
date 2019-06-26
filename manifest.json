@@ -10,13 +10,10 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "permissions": [
-    "https://xd.adobe.com/*"
-  ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://xd.adobe.com/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -24,7 +21,7 @@
     },
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://xd.adobe.com/*"
       ],
       "js": [
         "src/inject/inject.js"
